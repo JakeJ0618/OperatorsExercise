@@ -27,12 +27,17 @@ Console.WriteLine();
 
 //Exercise 2
 Console.WriteLine("What is the radius of your circle?");
-
-var radius = double.Parse(Console.ReadLine());
-
+var radius = 2;
 var areaOfCircle = Math.PI * Math.Pow(radius, 2);
 
+
+Console.WriteLine(radius);
 Console.WriteLine($"The area of the circle with a radius of {radius} is {areaOfCircle}");
 
+//Thought Experiment
+var i = 3;
+var j = 4;
+var k = ++i * j++;
 
+Console.WriteLine(k);
 
