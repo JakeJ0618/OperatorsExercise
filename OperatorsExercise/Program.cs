@@ -26,11 +26,13 @@ Console.WriteLine($"37/6 is {b/a} with a remainder of {remainder}");
 Console.WriteLine();
 
 //Exercise 2
+Console.WriteLine("What is the radius of your circle?");
 
-var radius = 2;
+var radius = double.Parse(Console.ReadLine());
+
 var areaOfCircle = Math.PI * Math.Pow(radius, 2);
 
-Console.WriteLine($"What is the radius of your circle?");
-Console.WriteLine(radius);
 Console.WriteLine($"The area of the circle with a radius of {radius} is {areaOfCircle}");
+
+
 
