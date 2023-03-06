@@ -1,5 +1,6 @@
 ﻿
 using System.Security.Cryptography.X509Certificates;
+//Exercise 1
 
 int a = 6;
 int b = 37;
@@ -22,3 +23,14 @@ int remainder = (b % a);
 Console.WriteLine($"The quotient of b/a is {quotient}");
 Console.WriteLine();
 Console.WriteLine($"37/6 is {b/a} with a remainder of {remainder}");
+Console.WriteLine();
+
+//Exercise 2
+
+var radius = 2;
+var areaOfCircle = Math.PI * Math.Pow(radius, 2);
+
+Console.WriteLine($"What is the radius of your circle?");
+Console.WriteLine(radius);
+Console.WriteLine($"The area of the circle with a radius of {radius} is {areaOfCircle}");
+
